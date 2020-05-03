@@ -1,5 +1,7 @@
 body{
     background-color: aqua;
+    margin: 2em;
+  
 }
 
 h1{
@@ -14,5 +16,19 @@ h1{
 
 p{
     margin-left:400px;
-
 }
+
+#something {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 20%;
+    left: 40%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
